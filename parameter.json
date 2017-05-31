@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "disks_test_server01_OsDisk_1_3d0a36039a344b9a90a71605462edd8c_name": {
+            "value": "test-server01_OsDisk_1_3d0a36039a344b9a90a71605462edd8c"
+        },
+        "virtualMachines_test_server01_name": {
+            "value": "test-server01"
+        },
+        "VirtualMachines_test_server01_username": {
+            "value": "testuser"
+        },
+        "VirtualMachines_test_server01_password": {
+            "value": "testserver#A01!"
+        },
+        "networkInterfaces_test_server01791_name": {
+            "value": "test-server01791"
+        },
+        "networkSecurityGroups_test_server01_nsg_name": {
+            "value": "test-server01-nsg"
+        },
+        "publicIPAddresses_test_server01_ip_name": {
+            "value": "test-server01-ip"
+        },
+        "virtualNetworks_TestRg_vnet_name": {
+            "value": "TestRg-vnet"
+        }
+    }
+}
